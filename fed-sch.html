@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="course.css">
+    </style>
+    <title>ABC | Front end website development schedule</title>
+</head>
+
+<body style="background-color: #f2fffd;">
+    <div class="my_header">
+        <h1>ABC</h1>
+        <h2 style="font-variant: small-caps;">Learning Center</h2>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <a class="navbar-brand" href="index.html"> <img class="rounded mylogo" src="image/abc.PNG"> </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto mt-2 mt-sm-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><span class="mylink">Home</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbar-drop" data-toggle="dropdown">
+                        <span class="mylink active">Courses</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="courses.html"><span>View courses</span></a>
+                        <a class="dropdown-item" href="schedules.html"><span>View schedules</span></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html"><span class="mylink">About Us</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html"><span class="mylink">Contact Us</span></a>
+                </li>
+            </ul>
+
+            <!--login-->
+            <div class="navbar myLogin" onclick="document.getElementById('login').style.display = 'block'">
+                <i style="font-size: 20px;" class="fa fa-user">&nbsp;Login</i>
+            </div>
+
+        </div>
+    </nav><br>
+
+    <div class="container">
+
+        <div class="course-head">
+            <h1>Front end website development</h1>
+
+            <img class="img-fluid course-img" src="image/html.png">
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 sch">
+                <h2>Section A</h2><br>
+                <h4>Days: &emsp; &emsp; &emsp; &nbsp; Monday, Tuesday </h4>
+                <h4>Time: &emsp; &emsp; &emsp; &nbsp; 5:00 pm - 7:00pm</h4>
+                <h4>Starting date: &ensp; March 6, 2023</h4>
+                <h4>Duration: &emsp; &emsp; 3 months</h4>
+            </div>
+
+            <div class="col-md-6 sch">
+                <h2>Section B</h2><br>
+                <h4>Days: &emsp; &emsp; &emsp; &nbsp; Saturday, Sunday </h4>
+                <h4>Time: &emsp; &emsp; &emsp; &nbsp; 5:00 pm - 7:00pm</h4>
+                <h4>Starting date: &ensp; March 4, 2023</h4>
+                <h4>Duration: &emsp; &emsp; 3 months</h4>
+            </div>
+        </div><br><br>
+
+        <a href="signup.html" class="btn course-btn">Register course</a>
+    </div><br><br>
+
+
+
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="schedules.html">Schedule</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="privacy_policy.html">Privacy policy</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">
+            <small>&copy; 2023 Copyright: ABC,LLC. All Rights Reserved.</small>
+
+        </div>
+    </footer>
+</body>
+
+</html>

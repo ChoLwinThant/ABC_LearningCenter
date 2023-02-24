@@ -1,0 +1,38 @@
+.des-col {
+    padding: 20px 50px;
+}
+
+.star {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.learn li {
+    list-style: square;
+}
+
+.course-img {
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+
+.course-btn {
+    background-color: #01b9aa;
+    box-shadow: 2px 2px black;
+}
+
+.course-btn:hover {
+    background-color: #bdf8ee;
+}
+
+
+/*course schedule*/
+.course-head {
+    padding: 30px;
+    text-align: center;
+}
+
+.sch {
+    padding: 20px;
+}
